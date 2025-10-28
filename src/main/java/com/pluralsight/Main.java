@@ -2,10 +2,13 @@ package com.pluralsight;
 
 public class Main {
     public static void main(String[] args) {
-        Vehicle v = new Vehicle();
-        Car c = new Car("V8", "10 Gallons", "John", "200mph", "1924875", "Scat-pack");
+        Car c = new Car("Mustang","V8","15G","John","300mph","324325");
 
-        System.out.println("This is the information of your car: " + c);
+        System.out.println(c);
+
+
+
+
     }
 
 }

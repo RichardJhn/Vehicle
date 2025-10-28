@@ -47,4 +47,13 @@ public class Vehicle {
     public String getVin() {
         return vin;
     }
+
+    public Vehicle(String engine, String gas, String operator, String speed, String vin) {
+        this.engine = engine;
+        this.gas = gas;
+        this.operator = operator;
+        this.speed = speed;
+        this.vin = vin;
+    }
+
 }

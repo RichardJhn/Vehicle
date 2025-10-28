@@ -12,12 +12,8 @@ public class Car extends Vehicle {
     }
 
 
-    public Car(String engine, String gas, String operator,String speed, String vin, String typeOfCar){
-        this.engine = engine;
-        this.gas = gas;
-        this.operator = operator;
-        this.speed = speed;
-        this.vin = vin;
+    public Car(String typeOfCar,String engine, String gas, String operator, String speed, String vin){
+        super(engine, gas, operator, speed, vin);
         this.typeOfCar = typeOfCar;
     }
 
